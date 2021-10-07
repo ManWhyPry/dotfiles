@@ -24,5 +24,6 @@ set wildmenu
 set wildmode=list:longest
 let &colorcolumn=join(range(81,120),",")
 highlight ColorColumn ctermbg=235
+highlight LineNr ctermbg=236
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
