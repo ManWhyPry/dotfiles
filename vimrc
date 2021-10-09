@@ -22,8 +22,8 @@ set hlsearch
 set history=1000
 set wildmenu
 set wildmode=list:longest
-let &colorcolumn=join(range(81,120),",")
+let &colorcolumn=join(range(81,128),",")
 highlight ColorColumn ctermbg=235
 highlight LineNr ctermbg=236
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%121v.\+/
+match OverLength /\%129v.\+/
